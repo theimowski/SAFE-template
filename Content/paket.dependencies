@@ -46,6 +46,6 @@ group Client
 group Build
     storage: none
     source https://api.nuget.org/v3/index.json
-    source ~/oss/SAFE-template/nupkg
 
-    nuget SAFE.Build
+    github theimowski/SAFE-template:safe-build src/SAFE.Build.fs
+
