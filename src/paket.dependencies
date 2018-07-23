@@ -1,0 +1,8 @@
+nuget Fake.Core.Environment
+nuget Fake.Core.Trace
+nuget Fake.Core.Target
+nuget Fake.DotNet.Cli
+nuget Fake.IO.FileSystem
+nuget Fake.IO.Zip
+
+github CompositionalIT/fshelpers src/FsHelpers/ArmHelper/ArmHelper.fs
